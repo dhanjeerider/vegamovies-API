@@ -1,3 +1,3 @@
 export const config = {
-  vegamoviesURL: 'https://vegamovies.ms',
+  vegamoviesURL: 'https://app.vegamovies.bot',
 }
