@@ -4,6 +4,7 @@ import {
   homeController,
   searchController,
   serversController,
+  debugController,
 } from '../controllers/index.js'
 
 const routes = async (fastify, options) => {
@@ -12,5 +13,6 @@ const routes = async (fastify, options) => {
   fastify.get('/servers', serversController)
   fastify.get('/downloads', downloadsController)
   fastify.get('/posts/:query/:category?', homeController)
+  fastify.get('/debug', debugController)
 }
 export default routes

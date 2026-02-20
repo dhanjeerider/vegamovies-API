@@ -6,6 +6,9 @@ export const validQueries = [
   { query: 'korean-series', categoryRequired: false },
   { query: 'english', categoryRequired: false },
   { query: 'wwe-show', categoryRequired: false },
+  { query: 'girl', categoryRequired: false },
+  { query: 'archive', categoryRequired: false },
+  { query: 'postpaid', categoryRequired: false },
   {
     query: 'web-series',
     categoryRequired: true,
